@@ -1,1 +1,1 @@
-new portfolio site using Angular 6
+# New portfolio site using Angular 6
