@@ -1,2 +1,2 @@
 # porfo-site-a
-## New portfolio site using Angular 6
+new portfolio site using Angular 6
