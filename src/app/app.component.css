@@ -1,0 +1,35 @@
+/* using css grid areas */
+.grid {
+  display: grid;
+  height: 98.5vh;
+  grid-template-areas: 
+      "art"
+      "asde"
+}
+
+h1 {
+  margin-bottom: 0px;
+}
+
+article {
+  grid-area: art;
+  background-color: #C06C81;
+  padding: 15px;
+}
+
+aside {
+  grid-area: asde;
+  background-color: #FFAD95;
+  padding: 15px;
+}
+
+@media (min-width: 550px) {
+  .grid {
+      grid-template-columns: 2fr 4fr;
+      grid-gap: 5px;
+      grid-template-areas: 
+          "asde art"
+  }
+
+
+}

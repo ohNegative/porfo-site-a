@@ -1,0 +1,6 @@
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let ghub of ghubs">
+    <a [href]="ghub.html_url">{{ghub.name}}</a>
+    	<p>{{ghub.description}}</p>
+  </li>
+</ul>
